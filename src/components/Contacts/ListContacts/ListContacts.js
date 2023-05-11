@@ -10,7 +10,7 @@ const ContactList = ({ contacts, onRemove }) => {
           <Description>
             {name}: {number}
           </Description>
-          <Button data-id={id} onClick={onRemove}>
+          <Button data-id={id} onClick={onRemove} type="button">
             Delete
           </Button>
         </ListItem>
